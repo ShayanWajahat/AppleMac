@@ -5,6 +5,25 @@
     padding: 0;
     font-family: "Roboto";
 }
+.header{
+    background-color: rgb(236, 236, 236);
+    height: 45px;
+    width: 100%;
+}
+.navbar{
+    font-size: 13px;
+    position: absolute;
+    top: 16px;
+    left: 420px;
+    word-spacing: 20px;
+}
+.nava{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+.nava:hover{
+    text-decoration: underline;
+}
 .mac{
     position: absolute;
     color: rgb(34, 34, 34);
@@ -34,6 +53,7 @@
     border-radius: 50px;
     top: 220px;
     left: 105px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
 }
 .knowmac{
     position: absolute;
@@ -57,6 +77,7 @@
     left: 105px;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
 }
 .box1:hover{
     transform: scale(1.05);
@@ -73,6 +94,7 @@
     left: 578.3px;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
 }
 .box2:hover{
     transform: scale(1.05);
@@ -89,6 +111,7 @@
     left: 1051.6px;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
 }
 .box3:hover{
     transform: scale(1.05);
@@ -188,7 +211,7 @@
 }
 .mac1{
     position: absolute;
-    height: 695.05px;
+    height: 625.05px;
     width: 443.3px;
     background: transparent;
     top: 2840px;
@@ -199,7 +222,7 @@
 }
 .mac2{
     position: absolute;
-    height: 695.05px;
+    height: 625.05px;
     width: 443.3px;
     background: transparent;
     top: 2840px;
@@ -209,7 +232,7 @@
 }
 .mac3{
     position: absolute;
-    height: 695.05px;
+    height: 625.05px;
     width: 443.3px;
     background: transparent;
     top: 2840px;
@@ -229,7 +252,7 @@
 }
 .mactext{
     color: rgb(34, 34, 34);
-    margin-top: 270px;
+    margin-top: 300px;
     font-size: 30px;
     font-weight: 500;
 }
@@ -250,11 +273,255 @@
 }
 .buy{
     position: absolute;
-    top: 483px;
+    top: 510px;
     font-size: 20px;
     text-decoration: none;
     color: rgb(0, 119, 255);
 }
 .buy:hover{
+    text-decoration: underline;
+}
+.mac4{
+    position: absolute;
+    height: 685.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 3500px;
+    left: 105px;
+    border-radius: 40px;
+    text-align: center;
+    transition: 0.3s;
+}
+.mac5{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 3500px;
+    left: 578.3px;
+    border-radius: 40px;
+    text-align: center;
+}
+.mac6{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 3500px;
+    left: 1051.6px;
+    border-radius: 40px;
+    text-align: center;
+}
+.macimg2{
+    position: absolute;
+    top: 50px;
+    left: 62px;
+    transition: 0.3s;
+}
+.macimg2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.macmini{
+    position: absolute;
+    top: 200px;
+    left: 62px;
+    transition: 0.3s;
+}
+.macmini:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.macmini2{
+    position: absolute;
+    top: 170px;
+    left: 62px;
+    transition: 0.3s;
+}
+.macmini2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.mactext2{
+    color: rgb(34, 34, 34);
+    margin-top: 375px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.afford2{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.learn2{
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    margin-right: 80px;
+}
+.buy2{
+    position: absolute;
+    top: 585px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+.buy2:hover{
+    text-decoration: underline;
+}
+.mac7{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 4160px;
+    left: 105px;
+    border-radius: 40px;
+    text-align: center;
+    transition: 0.3s;
+}
+.mac8{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 4160px;
+    left: 578.3px;
+    border-radius: 40px;
+    text-align: center;
+}
+.mac9{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 4160px;
+    left: 1051.6px;
+    border-radius: 40px;
+    text-align: center;
+}
+.mactext3{
+    color: rgb(34, 34, 34);
+    margin-top: 360px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.afford3{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.learn3{
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    margin-right: 80px;
+}
+.buy3{
+    position: absolute;
+    top: 555px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+.buy3:hover{
+    text-decoration: underline;
+}
+.bigbox1{
+    position: absolute;
+    top: 5000px;
+    left: 105px;
+    height: 720px;
+    width: 675px;
+    background: transparent;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    overflow: hidden;
+}
+.bigbox2{
+    position: absolute;
+    top: 5000px;
+    left: 800px;
+    height: 720px;
+    width: 675px;
+    background: transparent;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    overflow: hidden;
+}
+.essentials{
+    position: absolute;
+    color: rgb(34, 34, 34);
+    font-size: 70px;
+    font-family: "Roboto";
+    font-weight: 590;
+    letter-spacing: -2px;
+    left: 105px;
+    top: 4850px;
+}
+.access{
+    color: rgb(34, 34, 34);
+    font-weight: 500;
+    margin-top: 50px;
+}
+.imgaccess{
+    margin-top: 170px;
+}
+.imgdisplay{
+    margin-top: 170px;
+}
+.shop{
+    color: rgb(0, 119, 255);
+    text-decoration: none;
+}
+.shop:hover{
+    text-decoration: underline;
+}
+.footer{
+    position: absolute;
+    height: 500px;
+    width: 900px;
+    background: transparent;
+    top: 6000px;
+    left: 350px;
+}
+.row1{
+    position: absolute;
+    font-size: 13px;
+}
+.row2{
+    position: absolute;
+    left: 260px;
+    font-size: 13px;
+}
+.row3{
+    position: absolute;
+    left: 540px;
+    font-size: 13px;
+}
+.row4{
+    position: absolute;
+    left: 805px;
+    font-size: 13px;
+}
+.rowp{
+    font-weight: 590;
+}
+.rowa{
+    display: grid;
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+.rowa:hover{
     text-decoration: underline;
 }
